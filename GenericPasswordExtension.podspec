@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GenericPasswordExtension"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "With just a few lines of code, your app can add GenericPassword support."
 
   s.description  = <<-DESC
@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
                    Empowering your users to use strong, unique passwords has never been easier.
                    DESC
 
-  s.homepage          = "https://github.com/AgileBits/genericpassword-app-extension"
+  s.homepage          = "https://github.com/foscomputerservices/generic-password-app-extension.git"
   s.license           = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors           = [ "Dave Teare", "Michael Fey", "Rad Azzouz", "Roustem Karimov" ]
   s.social_media_url  = "https://twitter.com/GenericPasswordBeta"
 
-  s.source            = { :git => "https://github.com/AgileBits/genericpassword-app-extension.git", :tag => s.version }
+  s.source            = { :git => "https://github.com/foscomputerservices/generic-password-app-extension.git", :tag => s.version }
   s.platform          = :ios, 7.0
   s.source_files      = "*.{h,m}"
   s.frameworks        = "UIKit"
